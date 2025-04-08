@@ -1,40 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Calculator</title>
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Raigad Fort Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="calculator">
-    <input type="text" id="display" disabled />
-    <div class="buttons">
-<button onclick="clearDisplay()">C</button>
-<button onclick="appendToDisplay('(')">(</button>
-<button onclick="appendToDisplay(')')">)</button>
-<button onclick="appendToDisplay('/')">&divide;</button>
 
-<button onclick="appendToDisplay('7')">7</button>
-<button onclick="appendToDisplay('8')">8</button>
-<button onclick="appendToDisplay('9')">9</button>
-<button onclick="appendToDisplay('*')">&times;</button>
+  <header>
+    <h1>Raigad Fort </h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#history">History</a>
+      <a href="#gallery">Images</a>
+      <a href="#info">Visitor Info</a>
+    </nav>
+  </header>
 
-<button onclick="appendToDisplay('4')">4</button>
-<button onclick="appendToDisplay('5')">5</button>
-<button onclick="appendToDisplay('6')">6</button>
-<button onclick="appendToDisplay('-')">-</button>
+  <section id="about" class="section">
+    <h2>About Raigad Fort</h2>
+    <p>Raigad Fort is a majestic hill fortress located in Maharashtra, India. It was the capital of the Maratha Empire under the rule of Chhatrapati Shivaji Maharaj. Situated at 2,700 feet above sea level, the fort offers breathtaking views and holds immense historical importance.
+      Located at an elevation of 820 metres (2,700 ft) above its base and 1,356 m (4,449 ft) above sea level within the Sahyadri mountain range, the fort offers views of the surrounding area. The fort was home to around 1,550 people having an average family size of 5 people. Accessing the fort requires ascending approximately 1,737 steps. Alternatively, visitors can opt for the Raigad Ropeway, an aerial tramway spanning 750 m (2,460 ft) in length and reaching a height of 400 m (1,300 ft), which conveniently transports them from the ground to the fort in just four minutes.
+    </p>
+  </section>
 
-<button onclick="appendToDisplay('1')">1</button>
-<button onclick="appendToDisplay('2')">2</button>
-<button onclick="appendToDisplay('3')">3</button>
-<button onclick="appendToDisplay('+')">+</button>
-<button onclick="appendToDisplay('0')">0</button>
-<button onclick="appendToDisplay('.')">.</button>
-<button onclick="calculate()">=</button>
+  <section id="history" class="section">
+    <h2>History</h2>
+    <p>Chhatrapati Shivaji Maharaj, the Maratha ruler, along with his chief engineer Hiroji Indulkar, did the construction and development of various buildings and structures, including Raigad. In 1674, after being crowned the king of the Maratha Kingdom of the Konkan, Shivaji Maharaj chose Raigad as the capital of his Hindavi SwaraOriginally built by Chandrarao More in 1030, Raigad Fort was later captured and rebuilt by Chhatrapati Shivaji Maharaj in 1656. It became the capital of his kingdom when he was crowned in 1674. The fort witnessed the rise of the Maratha Empire and remains a symbol of their pride and bravery.</p>
+  </section>
+
+  <section id="gallery" class="section gallery">
+    <h2>Images</h2>
+    <div class="image-grid">
+      <img src="MAHARAJ.jpg" alt="Raigad Fort View">
+      <img src="Nagarkhana,_Raigad_Fort,_India.jpg" alt="Fort Entrance">
+      <img src="RAJ..jpg" alt="Shivaji Statue at Raigad">
+      <img src ="raigad fort.jpg">
+      <img src="raigad.jpg">
+      <img src="rajmarg.jpg">
     </div>
-  </div>
+  </section>
 
-  <script src="script.js"></script>
+  <section id="info" class="section">
+    <h2>Visitor Info</h2>
+    <ul>
+      <li><strong>Location:</strong> Raigad district, Maharashtra, India</li>
+      <li><strong>Best Time to Visit:</strong> October to March</li>
+      <li><strong>Timings:</strong> 8:00 AM to 5:30 PM</li>
+      <li><strong>Entry Fee:</strong> ₹30 for Indians, ₹100 for foreigners</li>
+      <li><strong>Attractions:</strong> Ropeway ride, Shivaji’s Samadhi, Queen’s chambers, and scenic views</li>
+      <li>JAY MAHARASHTRA</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Raigad Fort. Designed for educational purposes.</p>
+  </footer>
+
 </body>
 </html>
